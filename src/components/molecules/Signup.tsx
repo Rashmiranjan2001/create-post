@@ -50,6 +50,7 @@ const Signup = (): JSX.Element => {
       <h1 className='signup__title'>Create an account to continue</h1>
       <form className='signup__form'>
         <Input
+          text= ''
           name='email'
           type='email'
           label='Email'
@@ -57,6 +58,7 @@ const Signup = (): JSX.Element => {
           onChange={onChange}
           value={formInput?.email}/>
         <Input
+          text= ''
           name='username'
           type='text'
           label='Username'
@@ -64,6 +66,7 @@ const Signup = (): JSX.Element => {
           onChange={onChange}
           value={formInput?.username}/>
         <Input
+          text= ''
           name='password'
           type='password'
           label='Password'

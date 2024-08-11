@@ -8,14 +8,20 @@ interface IInputProps {
   name: HTMLInputElement['name']
   value: HTMLInputElement['value']
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void
+  text: string // Add this line
 }
 
 const Input = (props: IInputProps): JSX.Element => {
   return (
     <div className='input'>
-      <label className='input__label'>
-        {props.label}
-      </label>
+      <div className='input__label-container'>
+        <label className='input__label'>
+          {props.label}
+        </label>
+        <span className='input__text'>
+          {props.text}
+        </span>
+      </div>
       <input
         className='input__box'
         name={props.name}

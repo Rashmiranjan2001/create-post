@@ -20,4 +20,12 @@
             color: var(--text-color-3);
           }
     }
+    .input__label-container {
+        display: flex;
+        justify-content: space-between; /* Adjusts spacing between label and text */
+        align-items: center; /* Aligns items vertically centered */
+        color: var(--text-color-2);
+        width: 100%; /* Ensures the container spans the full width */
+        font-size: var(--font-size-m); /* Smaller font size */
+      }
 }

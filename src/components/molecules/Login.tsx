@@ -52,6 +52,7 @@ const Login = (): JSX.Element => {
           name='email'
           type='text'
           label='Email or Username'
+          text= ''
           placeholder='Enter your email or username'
           onChange={onChange}
           value={formInput?.email}/>
@@ -61,6 +62,7 @@ const Login = (): JSX.Element => {
           label='Password'
           placeholder='Enter your password'
           onChange={onChange}
+          text= 'Forgot password?'
           value={formInput?.password}/>
         <div className='login__action'>
           <Button
