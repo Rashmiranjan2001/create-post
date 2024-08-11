@@ -14,7 +14,7 @@ Clone the repo
 4. Open http://localhost:3000 in your browser
 
 Project Structure
-
+```
 src/
 │
 ├── molecules/              # Contains stateful components
@@ -38,7 +38,7 @@ src/
 ├── App.js                  # Main app component
 ├── index.js                # Main entry point of the application
 └── routes.js               # Defines all the application routes
-
+```
 
 Structure Overview
 src/: This folder contains all the source code for the application, including components, services, and entry points.
