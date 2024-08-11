@@ -1,0 +1,16 @@
+.home {
+    background-color: var(--background-color-primary);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+    &__content {
+        border-radius: var(--border-radius-l);
+        padding: var(--spacing-l);
+        border: 2px solid #969696;
+        background-color: var(--background-color-secondary);
+    }
+}

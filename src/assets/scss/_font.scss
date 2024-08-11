@@ -1,0 +1,17 @@
+:root {
+    --font-size-xxs: 8px;
+    --font-size-xs: 10px;
+    --font-size-s: 12px;
+    --font-size-m: 14px;
+    --font-size-l: 16px;
+    --font-size-xl: 18px;
+    --font-size-xxl: 20px;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter"),
+      url("../fonts/Inter/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }

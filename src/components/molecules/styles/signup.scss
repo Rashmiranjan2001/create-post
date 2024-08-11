@@ -1,0 +1,37 @@
+.signup {
+    color: var(--text-color-1);
+    background-color: var(--background-color-secondary);
+
+    &__header {
+        font-size: var(--font-size-m);
+        color: var(--text-color-4);
+        margin-top: var(--spacing-xl);
+        text-align: center;
+    }
+
+    &__title {
+        font-size: var(--font-size-xl);
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    &__form {
+        width: 415px;
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-l);
+    }
+
+    &__footer {
+        margin-bottom: 30px;
+        color: var(--text-color-3);
+        text-align: left;
+        font-size: var(--font-size-m);
+
+        &__action {
+            margin-left: var(--spacing-xxs);
+            color: var(--text-color-2);
+            text-decoration: none;
+        }
+    }
+}
